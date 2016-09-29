@@ -1,0 +1,160 @@
+body {
+    background: #265c7f;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    color: #666;
+}
+
+div {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 20px auto;
+    width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.otherLabel {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.nameLabel {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    top: 5px;
+    text-align: right;
+}
+
+input[type=text], input[type=password] {
+    height: 26px;
+    border-radius: 3px;
+    border: 1px solid #777;
+    width: 360px;
+    padding: 3px 5px;
+    margin-bottom: 8px;
+}
+
+.instructorWrapper {
+    margin: 0 auto;
+    width: 85%;
+    background: #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 5px 5px;
+}
+
+select {
+    display: block;
+    height: 50px;
+    font-size: 22px;
+    width: 80%;
+    margin: 25px auto;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    display: block;
+    height: 40px;
+    font-size: 24px;
+    border: 2px solid #ba7;
+    background: #007bcc;
+    border-radius: 5px;
+    width: 85%;
+    margin: 5px auto;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background: #009aff;
+}
+
+input[type=checkbox].css-checkbox {
+        position:absolute; 
+        z-index:-1000; 
+        left:-1000px; 
+        overflow: hidden; 
+        clip: rect(0 0 0 0); 
+        height:1px; 
+        width:1px; 
+        margin:-1px;
+        padding:0; 
+        border:0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+        padding-left:27px;
+        height:22px; 
+        display:inline-block;
+        line-height:24px;
+        background-repeat:no-repeat;
+        background-position: 0 0;
+        font-size:18px;
+        vertical-align:middle;
+        cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+        background-position: 0 -22px;
+}
+
+label.css-label {
+    background-image:url(../images/csscheckbox.png);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 3px;
+}
+
+h2, h1 {
+    width: 100%;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+.warning, .miniWarning {
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    color: darkred;
+    font-size: 22px;
+}
+
+.miniWarning {
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+
+.textInputWrapper {
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+}
+
+.instructions {
+    width: 85%;
+    margin: 5px auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+
+a {
+    display: block;
+    margin: 45px auto 0;
+    text-align: center;
+    color: #ccc;
+}
