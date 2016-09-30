@@ -9,7 +9,7 @@
         $db = new PDO($dsn, $username, $password);
     } catch (PDOException $e) {
         $error_message = $e->getMessage();
-        exit();
+        exit("There has been a problem connecting to the database.  Please try again.");
     }
     
     function submitInfo($studentFirstname, $studentLastname, $university, $instructors) {
