@@ -14,5 +14,5 @@ function getDBcreds() {
     $username = 'root';
     $password = '';
     
-    return array($usename, $password);
+    return array($username, $password);
 }
